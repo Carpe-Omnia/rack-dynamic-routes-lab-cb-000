@@ -1,17 +1,21 @@
 class Item
   attr_accessor :name, :price
   @@all = []
+
   def self.all
     @@all
   end
+
   def initialize(name,price)
     @name = name
     @price = price
     @@all << self
   end
+
   def self.find_by_name(name)
     @@all.find do |item|
       item.name == name
     end
   end
+
 end
