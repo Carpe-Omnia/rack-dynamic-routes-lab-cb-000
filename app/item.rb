@@ -22,4 +22,4 @@ end
 
 gun = Item.new('glock', '$5')
 puts Item.find_by_name('glock')
-puts Item.all
+#puts Item.all
