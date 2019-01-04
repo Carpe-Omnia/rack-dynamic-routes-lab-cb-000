@@ -1,6 +1,7 @@
 class Application
   def call(env)
     resp = Rack::Response.new
+    req = Rack::REquest.new(env)
     if req.path.match(/items/)
       resp.write "items"
     else 
