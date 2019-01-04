@@ -20,6 +20,6 @@ class Item
 
 end
 
-gun = Item.new('glock', '$5')
-puts Item.find_by_name('cock') == nil 
+#gun = Item.new('glock', '$5')
+#puts Item.find_by_name('cock') == nil
 #puts Item.all
