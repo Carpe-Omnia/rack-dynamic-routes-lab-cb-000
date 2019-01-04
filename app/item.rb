@@ -21,5 +21,5 @@ class Item
 end
 
 gun = Item.new('glock', '$5')
-puts gun
+puts gun.name 
 puts Item.all 
