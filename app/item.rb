@@ -19,3 +19,7 @@ class Item
   end
 
 end
+
+gun = Item.new('glock', '$5')
+puts gun
+puts Item.all 
